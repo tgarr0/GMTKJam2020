@@ -1,5 +1,19 @@
 {
   "resources": [
+    {"id":{"name":"initialize_movement_entity","path":"scripts/initialize_movement_entity/initialize_movement_entity.yy",},"order":3,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
+    {"id":{"name":"apply_friction_to_movement_entity","path":"scripts/apply_friction_to_movement_entity/apply_friction_to_movement_entity.yy",},"order":2,},
+    {"id":{"name":"player_move_state","path":"scripts/player_move_state/player_move_state.yy",},"order":0,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"round_n","path":"scripts/round_n/round_n.yy",},"order":0,},
+    {"id":{"name":"spr_player_stand_in","path":"sprites/spr_player_stand_in/spr_player_stand_in.yy",},"order":0,},
+    {"id":{"name":"animation_hit_frame","path":"scripts/animation_hit_frame/animation_hit_frame.yy",},"order":2,},
+    {"id":{"name":"approach","path":"scripts/approach/approach.yy",},"order":1,},
+    {"id":{"name":"get_direction_facing","path":"scripts/get_direction_facing/get_direction_facing.yy",},"order":0,},
+    {"id":{"name":"obj_collision_parent","path":"objects/obj_collision_parent/obj_collision_parent.yy",},"order":3,},
+    {"id":{"name":"move_movement_entity","path":"scripts/move_movement_entity/move_movement_entity.yy",},"order":4,},
+    {"id":{"name":"add_movement_maxspeed","path":"scripts/add_movement_maxspeed/add_movement_maxspeed.yy",},"order":1,},
+    {"id":{"name":"obj_input","path":"objects/obj_input/obj_input.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -38,6 +52,9 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Player States.yy","order":1,"resourceVersion":"1.0","name":"Player States","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Movement Scripts.yy","order":2,"resourceVersion":"1.0","name":"Movement Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Helper Scripts.yy","order":3,"resourceVersion":"1.0","name":"Helper Scripts","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
