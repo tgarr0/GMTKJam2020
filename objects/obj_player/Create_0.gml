@@ -7,7 +7,8 @@ direction_facing_ = dir.right;
 state_init_ = false;
 
 enum player {
-	move
+	move,
+	attack
 }
 
 enum dir {
