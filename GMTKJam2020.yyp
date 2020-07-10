@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"initialize_movement_entity","path":"scripts/initialize_movement_entity/initialize_movement_entity.yy",},"order":3,},
+    {"id":{"name":"spr_collision_parent","path":"sprites/spr_collision_parent/spr_collision_parent.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
     {"id":{"name":"apply_friction_to_movement_entity","path":"scripts/apply_friction_to_movement_entity/apply_friction_to_movement_entity.yy",},"order":2,},
     {"id":{"name":"player_move_state","path":"scripts/player_move_state/player_move_state.yy",},"order":0,},

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_stand_in",
-    "path": "sprites/spr_player_stand_in/spr_player_stand_in.yy",
+    "name": "spr_collision_parent",
+    "path": "sprites/spr_collision_parent/spr_collision_parent.yy",
   },
   "solid": false,
   "visible": true,
