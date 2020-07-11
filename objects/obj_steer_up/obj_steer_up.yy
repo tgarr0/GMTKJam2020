@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_collision_parent",
-    "path": "sprites/spr_collision_parent/spr_collision_parent.yy",
+    "name": "spr_steer_up_off",
+    "path": "sprites/spr_steer_up_off/spr_steer_up_off.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_collision",
-    "path": "objects/obj_collision/obj_collision.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_steer_up",
   "tags": [],
   "resourceType": "GMObject",
 }
