@@ -4,6 +4,10 @@ acceleration_ = 0.5;
 max_speed_ = 1;
 direction_ = 0;
 direction_facing_ = dir.right;
+ship_straight_ = 0;
+ship_left_ = 1;
+ship_right_ = 2;
+ship_direction_ = ship_straight_;
 
 enum player {
 	move,
