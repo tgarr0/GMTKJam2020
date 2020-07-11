@@ -8,7 +8,7 @@ state_init_ = false;
 
 enum player {
 	move,
-	swing_bucket_clockwise
+	attack
 }
 
 enum dir {
@@ -28,4 +28,10 @@ sprite_[player.move, dir.right] = spr_player_walk_right;
 sprite_[player.move, dir.up] = spr_player_walk_up;
 sprite_[player.move, dir.left] = spr_player_walk_right;
 sprite_[player.move, dir.down] = spr_player_walk_down;
+
+//Attack
+sprite_[player.attack, dir.right] = spr_player_counterclockwise_swing;
+sprite_[player.attack, dir.up] = spr_player_counterclockwise_swing;
+sprite_[player.attack, dir.left] = spr_player_counterclockwise_swing;
+sprite_[player.attack, dir.down] = spr_player_counterclockwise_swing;
 

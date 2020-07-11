@@ -3,7 +3,7 @@ function player_move_state() {
 	var _x_input = obj_input.right_ - obj_input.left_;
 	var _y_input = obj_input.down_ - obj_input.up_;
 	var _input_direction = point_direction(0, 0, _x_input, _y_input);
-	var _jump_input = obj_input.action_one_pressed_;
+	var _attack_input = obj_input.action_one_pressed_;
 
 	if _x_input == 0 && _y_input == 0{
 		image_index = 0;
@@ -19,6 +19,12 @@ function player_move_state() {
 	}
 
 	move_movement_entity(false);
+	
+	if _attack_input {
+		image_index = 0;
+		state_ = player.attack;
+	}
 
 
 }
+
