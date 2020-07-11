@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_ship_disposal",
-    "path": "sprites/spr_ship_disposal/spr_ship_disposal.yy",
+    "name": "spr_collision_parent",
+    "path": "sprites/spr_collision_parent/spr_collision_parent.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_wall",
-    "path": "objects/obj_wall/obj_wall.yy",
+    "name": "obj_collision",
+    "path": "objects/obj_collision/obj_collision.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_ship_disposal","path":"objects/obj_ship_disposal/obj_ship_disposal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship_disposal",
+  "name": "obj_wall",
   "tags": [],
   "resourceType": "GMObject",
 }

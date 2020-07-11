@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_collision_parent",
-    "path": "sprites/spr_collision_parent/spr_collision_parent.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_collision_parent",
+  "name": "obj_collision",
   "tags": [],
   "resourceType": "GMObject",
 }

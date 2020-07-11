@@ -20,10 +20,5 @@ function player_move_state() {
 
 	move_movement_entity(false);
 
-	if _jump_input == true {
-		state_init_ = true;
-		state_ = player.jump;
-	}
-
 
 }
