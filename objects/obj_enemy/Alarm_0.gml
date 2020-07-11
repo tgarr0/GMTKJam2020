@@ -1,4 +1,4 @@
-if distance_to_object(obj_player) < 48 {
+if distance_to_object(obj_player) < _range {
 	direction = point_direction(x, y, obj_player.x, obj_player.y);
 	alarm[0] = room_speed * .25;
 	speed = .25 * (irandom_range(1, 3));
