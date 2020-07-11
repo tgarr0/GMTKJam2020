@@ -8,7 +8,7 @@ state_init_ = false;
 
 enum player {
 	move,
-	attack
+	swing_bucket_clockwise
 }
 
 enum dir {
@@ -24,7 +24,8 @@ state_ = player.move;
 //Sprite Lookup Table
 
 //Move
-sprite_[player.move, dir.right] = spr_player_stand_in;
-sprite_[player.move, dir.up] = spr_player_stand_in;
-sprite_[player.move, dir.left] = spr_player_stand_in;
-sprite_[player.move, dir.down] = spr_player_stand_in;
+sprite_[player.move, dir.right] = spr_player_walk_right;
+sprite_[player.move, dir.up] = spr_player_walk_up;
+sprite_[player.move, dir.left] = spr_player_walk_right;
+sprite_[player.move, dir.down] = spr_player_walk_down;
+

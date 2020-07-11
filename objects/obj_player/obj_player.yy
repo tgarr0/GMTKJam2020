@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_stand_in",
-    "path": "sprites/spr_player_stand_in/spr_player_stand_in.yy",
+    "name": "spr_player_walk_right",
+    "path": "sprites/spr_player_walk_right/spr_player_walk_right.yy",
   },
   "solid": false,
   "visible": true,
