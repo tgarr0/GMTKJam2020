@@ -4,7 +4,6 @@ acceleration_ = 0.5;
 max_speed_ = 1;
 direction_ = 0;
 direction_facing_ = dir.right;
-state_init_ = false;
 
 enum player {
 	move,

@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"initialize_movement_entity","path":"scripts/initialize_movement_entity/initialize_movement_entity.yy",},"order":3,},
     {"id":{"name":"obj_star_spawner","path":"objects/obj_star_spawner/obj_star_spawner.yy",},"order":9,},
+    {"id":{"name":"assign_direction_facing","path":"scripts/assign_direction_facing/assign_direction_facing.yy",},"order":5,},
     {"id":{"name":"spr_collision_parent","path":"sprites/spr_collision_parent/spr_collision_parent.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
     {"id":{"name":"spr_player_walk_right","path":"sprites/spr_player_walk_right/spr_player_walk_right.yy",},"order":1,},
@@ -20,6 +21,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":6,},
     {"id":{"name":"spr_enemy_walk_right","path":"sprites/spr_enemy_walk_right/spr_enemy_walk_right.yy",},"order":0,},
     {"id":{"name":"spr_player_counterclockwise_swing","path":"sprites/spr_player_counterclockwise_swing/spr_player_counterclockwise_swing.yy",},"order":4,},
+    {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":2,},
     {"id":{"name":"spr_steer_up_off","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"order":4,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":5,},
     {"id":{"name":"spr_player_stand_in","path":"sprites/spr_player_stand_in/spr_player_stand_in.yy",},"order":0,},
