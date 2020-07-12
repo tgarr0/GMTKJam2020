@@ -1,1 +1,1 @@
-initialize_movement_entity(.6, 1, obj_collision);
+initialize_movement_entity(.85, 1, obj_collision);
