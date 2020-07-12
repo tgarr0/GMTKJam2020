@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_ship_disposal","path":"objects/obj_ship_disposal/obj_ship_disposal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_bucket_hitbox","path":"objects/obj_bucket_hitbox/obj_bucket_hitbox.yy",},"parent":{"name":"obj_ship_disposal","path":"objects/obj_ship_disposal/obj_ship_disposal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,0 +1,1 @@
+initialize_movement_entity(.75, 1, obj_collision);

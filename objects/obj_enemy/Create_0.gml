@@ -13,7 +13,8 @@ global.one_second = game_get_speed(gamespeed_fps);
 
 enum  enemy {
 	move,
-	hurt
+	hurt,
+	drown
 }
 
 enum enemy_dir {
@@ -41,3 +42,9 @@ sprite_[enemy.hurt, enemy_dir.right] = spr_enemy_damaged;
 sprite_[enemy.hurt, enemy_dir.up] = spr_enemy_damaged;
 sprite_[enemy.hurt, enemy_dir.left] = spr_enemy_damaged;
 sprite_[enemy.hurt, enemy_dir.down] = spr_enemy_damaged;
+
+//Drowning
+sprite_[enemy.drown, enemy_dir.right] = spr_enemy_drowning;
+sprite_[enemy.drown, enemy_dir.up] = spr_enemy_drowning;
+sprite_[enemy.drown, enemy_dir.left] = spr_enemy_drowning;
+sprite_[enemy.drown, enemy_dir.down] = spr_enemy_drowning;

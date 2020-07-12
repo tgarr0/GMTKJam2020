@@ -1,21 +1,21 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 15,
-  "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_left": 8,
+  "bbox_right": 23,
+  "bbox_top": 7,
+  "bbox_bottom": 22,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 27,
+  "height": 24,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"228ecd40-9a3c-40b3-a6b9-5f4780d67076","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"228ecd40-9a3c-40b3-a6b9-5f4780d67076","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"LayerId":{"name":"6e3b431b-4bb0-41f9-a868-eb9cc1540af4","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_steer_down_on","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","name":"228ecd40-9a3c-40b3-a6b9-5f4780d67076","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"45aa33d4-d6a8-4888-894b-782d9a43e472","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"45aa33d4-d6a8-4888-894b-782d9a43e472","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"LayerId":{"name":"1b580091-2d94-4235-998d-5dada276cb44","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_steer_down_on","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","name":"45aa33d4-d6a8-4888-894b-782d9a43e472","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_steer_down_on","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"73b586ba-bcf9-4370-9210-1cb367c8f9e4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"228ecd40-9a3c-40b3-a6b9-5f4780d67076","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4135d7e4-9054-42e5-9c65-8b186a622978","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45aa33d4-d6a8-4888-894b-782d9a43e472","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 16,
+    "yorigin": 23,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_steer_down_on","path":"sprites/spr_steer_down_on/spr_steer_down_on.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e3b431b-4bb0-41f9-a868-eb9cc1540af4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b580091-2d94-4235-998d-5dada276cb44","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Ship Sprites",

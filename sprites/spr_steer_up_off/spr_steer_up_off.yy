@@ -1,21 +1,21 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_left": 1,
+  "bbox_right": 16,
   "bbox_top": 0,
   "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 16,
-  "height": 16,
+  "width": 23,
+  "height": 23,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a285f153-cb09-4c0b-a437-7b2c46060ccf","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a285f153-cb09-4c0b-a437-7b2c46060ccf","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"LayerId":{"name":"85d2b77c-9d8e-4d8f-9994-7baf303ddbbe","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_steer_up_off","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","name":"a285f153-cb09-4c0b-a437-7b2c46060ccf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e3455b1-f4fc-42cd-9190-4e90034595f9","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e3455b1-f4fc-42cd-9190-4e90034595f9","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"LayerId":{"name":"0e027c8b-7840-4cd7-a8f9-c55f5074da27","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_steer_up_off","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","name":"5e3455b1-f4fc-42cd-9190-4e90034595f9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_steer_up_off","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bf6de666-6bac-4983-80ce-b804c94f4605","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a285f153-cb09-4c0b-a437-7b2c46060ccf","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5588dd9e-f049-4512-8dcb-2acd73064d24","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e3455b1-f4fc-42cd-9190-4e90034595f9","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 9,
+    "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_steer_up_off","path":"sprites/spr_steer_up_off/spr_steer_up_off.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"85d2b77c-9d8e-4d8f-9994-7baf303ddbbe","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0e027c8b-7840-4cd7-a8f9-c55f5074da27","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Ship Sprites",

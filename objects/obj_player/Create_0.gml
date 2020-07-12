@@ -7,7 +7,11 @@ direction_facing_ = dir.right;
 ship_straight_ = 0;
 ship_left_ = 1;
 ship_right_ = 2;
+empty_ = 0;
+full_ = 1;
 ship_direction_ = ship_straight_;
+bucket_ = empty_;
+ship_damage_ = 0;
 
 enum player {
 	move,
