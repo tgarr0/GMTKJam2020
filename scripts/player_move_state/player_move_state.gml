@@ -21,6 +21,7 @@ function player_move_state() {
 	move_movement_entity(false);
 	
 	if _attack_input {
+		audio_play_sound(snd_bucket_swing, 7, false);
 		instance_create_layer(x,y,"Instances",obj_bucket_hitbox);
 		image_index = 0;
 		state_ = player.attack;

@@ -8,6 +8,8 @@ direction_facing_ = dir.right;
 room_speed = 60;
 alarm[0] = room_speed * 1;
 _range = 48;
+sound_refresh_ = true;
+
 
 global.one_second = game_get_speed(gamespeed_fps);
 

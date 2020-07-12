@@ -4,7 +4,7 @@
     "path": "sprites/spr_bucket_hitbox/spr_bucket_hitbox.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

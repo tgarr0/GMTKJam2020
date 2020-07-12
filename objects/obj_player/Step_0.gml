@@ -10,4 +10,9 @@ if state_ == player.attack{
 	}
 }
 
+
+if ship_damage_ >= 28 {
+	instance_create_layer(0,0,"BottomEnemyShipLayer", obj_gameover_spawner);
+}
+
 sprite_index = sprite_[state_, direction_facing_];
